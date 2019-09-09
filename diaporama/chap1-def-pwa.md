@@ -1,57 +1,85 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
+https://medium.com/samsung-internet-dev/6-myths-of-progressive-web-apps-81e28ca9d2b1
+
 ## 1
 
 ### Progressive Web Application
 
-https://developer.mozilla.org/fr/docs/Web/Progressive_web_apps
-
-Experience utilisateur
 Utilisation de nouvelles API du web de manière progressive (rétro compatibilité)
-Définir une API !
-
-%%%
-
-### Discoverable
-
-Moteurs de recherche
-
-https://pwa.rocks/
-https://outweb.io/
-http://progressivewebapproom.com/
-
-%%%
-
-### Installable
-
-%%%
-
-### Linkable
-
-Référencement dans les navigateurs
-
-%%%
-
-### Network independent
-
-Service Workers API
 
 %%%
 
 ### Progressive
 
-Modern web apps can be developed to provide a super cool experience to fully capable browsers, and an acceptable (although not quite as shiny) experience to less capable browsers. We've been doing this for years with best practices such as progressive enhancement.
+Retrocompatibilité
+| | Firefox | Chrome | Safari | Opera | Edge |
+| ----------------------------------- | ------------ | ------- | ------------ | -------------------------- | ---------------- |
+| Version plus récente | 68.0 | 76.0 | 12.0 | 62.0 | 18.1 / 76+(beta) |
+| Service Workers | 44+ | 40.0+ | 11.1+ | 27+ | 17+ |
+| IndexedDb | 10 | 23+ | 10+ | 15+ | 76 |
+| HTML5 (note de la dernière version) | 491/550 | 528/550 | 471/550 | 518/550 | 492/550 |
+| Web App Manifest | Pas supporté | 73.0 | Pas supporté | Partiellement depuis 46.01 | 76.0 |
+
+NB eratum rapport : Version d'edge
+
+%%%
+
+### Safe
+
+HTTPS
+
+%%%
+
+### Network independent
+
+Cache Applicatif
+Service Workers API
+
+%%%
+
+### Installable
+
+Manifest.json
+
+<img src="images/manifest_json_white.png" width="700px" />
+%%%
+
+### Linkable
+
+On peut la partager juste en donnant le lien de l'application : pas besoin d'être installée préalablement
 
 %%%
 
 ### Re-engageable
 
+Prévenir l'utilisateur de nouveaux contenus et mises à jour
+
 Push API and Notification API
 
 %%%
 
-### Responsive
+### Responsive Design
 
 %%%
 
-### Safe
+### Discoverable
+
+- Moteurs de recherche
+- Magasins d'application?
+
+https://pwa.rocks/
+
+https://appsco.pe/toplist
+
+https://outweb.io/
+
+http://progressivewebapproom.com/
+
+%%%
+
+### Vérifier ces caractéristiques ??
+
+-> Un framework d'audit : LightHouse
+
+<img src="images/sortie_light_house.png" width="500px" />

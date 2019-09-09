@@ -1,22 +1,30 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 3 bis
+## 5
 
-### IndexedDb : une (des) solution(s) pour stocker les données localement
+### Mise en place, FrameWork ou pas Framework?
 
-### Zoom sur indexedDb
+Les limites liées à l'utilisation d'un framework
 
-C'est un peu un mix des deux précedents et c'est ce qui est à la mode.
-
-- Tous les objets sont stockées sous format json.
-
-Le requêtage
-
-- ce sont des appels asynchrones
-- sympa de pouvoir utiliser des indexs (on va vous montrer un exemple plus tard)
+- maintien de la communauté
+- mise à jour
 
 %%%
 
-<!-- .slide: class="slide" data-background-color="#7580ba" -->
+Où aller voir ?
+
+NPM -> store avec la liste de tous les framework node.js
+
+%%%
+
+Il y a pas mal de librairies différentes, nous on a choisi Dexie.js sur Prisme.
+
+Ses Avantages:
+
+- simplicité du code
+- requêtes peu coûteuses
+- gestion des erreurs
+
+%%%
 
 ### DEMO !

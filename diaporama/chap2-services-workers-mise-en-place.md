@@ -1,22 +1,33 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 2 bis
+## 3
 
 ### Les Service Workers
 
 ### Mise en place
 
-Workbox
+%%%
+
+-Create React App
+
+-Workbox
+
+<img src="images/workbox.png" width="100%" />
+
+%%%
 
 ### Pour des tests : GITHUB AND HEROKU
 
-- Librairie Facebook qui utilise Workbox (google)
 - Création d'un Service Worker qui met en cache les données statiques (html, css, js, svg ...)
 
 %%%
 
-### Sur Prisme : du https -> l'installation temporaire de certificat...
+### Sur Prisme :
+
+installation temporaire de certificat pour l'instant
 
 <!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
+
+%%%
 
 ### DEMO!

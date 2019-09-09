@@ -4,6 +4,8 @@
 
 ### Le contexte
 
+%%%
+
 ### Le SNDIP
 
 %%%
@@ -30,28 +32,16 @@ Normes de dev
 REACT/JS
 JAVA
 
-Le matériel
+Le matériel ?
 
 %%%
 
-### NATIF ?
+### Une application native?
 
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
-<img src="images/tablet_os_market_share_ww.png" width="100%" />
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
-<img src="images/besoins_contraintes.png" width="100%" />
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
-<img src="images/panorama_solutions_mobiles.png" width="100%" />
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
-<img src="images/caracteristiques_pwa.png" width="800px" />
+| Natif                       | PWA                            |
+| --------------------------- | ------------------------------ |
+| Lié à une plateforme        | MultiPlateforme                |
+| Cout elevé de développement | Faible Coût?                   |
+| Nécessite des mises à jours | Pas besoin d'installation      |
+| Fortes performances         | Interface rapidement chargée   |
+| nécessite une installation  | Utilisation en mode hors ligne |

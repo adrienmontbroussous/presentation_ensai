@@ -47,9 +47,3 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Seulement le cache <img src="images/ss-cache-only.png" width="400px" />                     | Seulement le network<img src="images/ss-network-only.png" width="400px" /> |
 | Network sinon cache <img src="images/ss-network-falling-back-to-cache.png" width="400px" /> | course <img src="images/ss-cache-and-network-race.png" width="400px" />    |
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
-
-### DEMO!
