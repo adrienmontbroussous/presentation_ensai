@@ -16,6 +16,10 @@
 
 ### L'équipe projet Prisme
 
+<img src="images/Aude.png" width="100px" height="100px"/><img src="images/Jacques.png" width="100px" height="100px"/><img src="images/Lionel.png" width="100px" height="100px"/><img src="images/Julien.png" width="100px" height="100px"/><img src="images/Adrien.png" width="100px" height="100px"/>
+
+<img src="images/Benoit_redim.jpg" width="100px" height="100px"/><img src="images/Michael.png" width="100px" height="100px"/><img src="images/Cedric.png" width="100px" height="100px"/>
+
 %%%
 
 ### NOTRE OBJECTIF / CONTRAINTES?

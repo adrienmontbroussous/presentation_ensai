@@ -13,7 +13,7 @@ Les limites liées à l'utilisation d'un framework
 
 Où aller voir ?
 
-NPM -> store avec la liste de tous les framework node.js
+https://www.npmjs.com/
 
 %%%
 

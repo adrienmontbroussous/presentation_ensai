@@ -33,6 +33,4 @@ stocker des données plus volumineuses et structurées, et interagir avec elles?
 Le requêtage
 
 - ce sont des appels asynchrones
-- sympa de pouvoir utiliser des index (on va vous montrer un exemple plus tard)
-
-%%%
+- possibilité d'utiliser des index

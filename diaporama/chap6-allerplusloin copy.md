@@ -12,30 +12,27 @@
 
 ### PINTEREST
 
-https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
+- Galerie d'image
+- une application web et une app native
+- refonte de l'application web
 
--Galerie d'image
+<img src="images/pinterest.png" width="600px" />
 
--une application web et une app native
+source : https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
+%%%
 
--refonte de l'application web
+<img src="images/pinterest2.png" width="600px" />
+
+source : https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
 
 %%%
+
+### plein d'autres exemples
 
 <!-- .slide: data-background-image="images/logo-git.png" data-background-size="600px" class="slide" -->
 
-### TINDER
-
-https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
-
-Des apps natives et une PWA depuis 2017
-
-%%%
-
-### INSTA
-
-%%%
-
-### MAPS
-
-%%%
+- Dino Game
+- google maps
+- instagram
+- tinder
+- starbucks
