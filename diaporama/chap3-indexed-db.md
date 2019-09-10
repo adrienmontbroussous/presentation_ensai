@@ -1,6 +1,6 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 4
+## 5
 
 ### IndexedDb : une (des) solution(s) pour stocker les données localement
 

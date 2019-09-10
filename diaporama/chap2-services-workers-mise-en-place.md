@@ -1,6 +1,6 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 3
+## 4
 
 ### Les Service Workers
 
