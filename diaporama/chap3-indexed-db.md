@@ -1,26 +1,10 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 5
+## 4
 
 ### IndexedDb : une (des) solution(s) pour stocker les données localement
 
 stocker des données plus volumineuses et structurées, et interagir avec elles?
-
-%%%
-
-<!-- .slide: class="slide" data-background-color="#7580ba" -->
-
-### Les ancêtres et les cousins d'IndexedDb
-
-## Le Web Storage ou DOM Storage
-
-- Stockage sous forme de couple clé / valeur
-- Deux formes de stockage : LocalStorage ou Session Storage
-
-## Les bases WebSql
-
-- Api permettant de faire des requêtes asynchrones et transactionelles
-- W3C a annoncé en novembre 2010 l'arrêt de la spécification
 
 %%%
 
@@ -34,3 +18,38 @@ Le requêtage
 
 - ce sont des appels asynchrones
 - possibilité d'utiliser des index
+
+%%%
+
+### Mise en place, FrameWork ou pas Framework?
+
+Les limites liées à l'utilisation d'un framework
+
+- maintien de la communauté
+- mise à jour
+
+%%%
+
+Où aller voir ?
+
+https://www.npmjs.com/
+
+%%%
+
+Il y a pas mal de librairies différentes, nous on a choisi Dexie.js sur Prisme.
+
+Ses Avantages:
+
+- communauté active
+- syntaxe pour les requêtes indexées intuitive
+- compatible avec react
+
+%%%
+
+Et en production quelles problématiques ?
+
+- montée de version de la base de données par fichier json
+
+<img src="images/schemaOriginal_rogne.png" width="500px" />
+
+<img src="images/maj1_rogne.png" width="500px" />

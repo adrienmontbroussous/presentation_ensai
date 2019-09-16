@@ -24,6 +24,9 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 
 ## Quelles contraintes pour mettre en place les services worker?
 
+- Https
+- on précise les ressources qui sont dans la contexte du service worker (son "scope")
+
 <img src="images/important-notes.png" width="800px" />
 
 %%%
@@ -47,3 +50,17 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Seulement le cache <img src="images/ss-cache-only.png" width="400px" />                     | Seulement le network<img src="images/ss-network-only.png" width="400px" /> |
 | Network sinon cache <img src="images/ss-network-falling-back-to-cache.png" width="400px" /> | course <img src="images/ss-cache-and-network-race.png" width="400px" />    |
+
+%%%
+
+### Mise en place
+
+-Create React App
+
+-Workbox
+
+%%%
+
+### Des outils d'aide au développement ?
+
+La console du navigateur Chrome

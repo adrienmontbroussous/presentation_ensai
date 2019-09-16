@@ -1,16 +1,8 @@
 <!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
 
-## 4
+## 2
 
-### Les Service Workers
-
-### Mise en place
-
-%%%
-
--Create React App
-
--Workbox
+### Les Services Workers
 
 <img src="images/workbox.png" width="100%" />
 

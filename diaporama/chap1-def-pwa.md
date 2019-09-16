@@ -2,36 +2,26 @@
 
 ## 2
 
-### Progressive Web Application
-
-Utilisation de nouvelles API du web de manière progressive (rétro compatibilité)
+### Progressive Web App
 
 %%%
 
-### Progressive
-
-|                                     | Firefox      | Chrome  | Safari       | Opera                      | Edge             |
-| ----------------------------------- | ------------ | ------- | ------------ | -------------------------- | ---------------- |
-| Version plus récente                | 68.0         | 76.0    | 12.0         | 62.0                       | 18.1 / 76+(beta) |
-| Service Workers                     | 44+          | 40.0+   | 11.1+        | 27+                        | 17+              |
-| IndexedDb                           | 10           | 23+     | 10+          | 15+                        | 76               |
-| HTML5 (note de la dernière version) | 491/550      | 528/550 | 471/550      | 518/550                    | 492/550          |
-| Web App Manifest                    | Pas supporté | 73.0    | Pas supporté | Partiellement depuis 46.01 | 76.0             |
-
-NB eratum rapport : Version d'edge
-
-%%%
-
-### Safe
+### Sécurisée
 
 HTTPS
 
+- Certificat
+- Chiffrement
+
 %%%
 
-### Network independent
+### Mode hors-ligne
 
 Cache Applicatif
+
 Service Workers API
+
+IndexedDb
 
 %%%
 
@@ -39,20 +29,12 @@ Service Workers API
 
 Manifest.json
 
-<img src="images/manifest_json_white.png" width="700px" />
+<img src="images/installable.png" width="700px" />
 %%%
 
-### Linkable
+### Lien
 
 On peut la partager juste en donnant le lien de l'application : pas besoin d'être installée préalablement
-
-%%%
-
-### Re-engageable
-
-Prévenir l'utilisateur de nouveaux contenus et mises à jour
-
-Push API and Notification API
 
 %%%
 
@@ -62,18 +44,12 @@ S'adapter à tous les supports
 
 %%%
 
-### Discoverable
+### Notifiable
 
-- Moteurs de recherche
-- Magasins d'application?
+Prévenir l'utilisateur de nouveaux contenus et mises à jour
 
-https://pwa.rocks/
-
-https://appsco.pe/toplist
-
-https://outweb.io/
-
-http://progressivewebapproom.com/
+- Push API
+- Notification API
 
 %%%
 
@@ -82,7 +58,3 @@ http://progressivewebapproom.com/
 -> Un framework d'audit : LightHouse
 
 <img src="images/sortie_light_house.png" width="500px" />
-
-%%%
-
-https://medium.com/samsung-internet-dev/6-myths-of-progressive-web-apps-81e28ca9d2b1

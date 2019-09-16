@@ -16,27 +16,26 @@
 
 ### L'équipe projet Prisme
 
-<img src="images/Aude.png" width="100px" height="100px"/><img src="images/Jacques.png" width="100px" height="100px"/><img src="images/Lionel.png" width="100px" height="100px"/><img src="images/Julien.png" width="100px" height="100px"/><img src="images/Adrien.png" width="100px" height="100px"/>
+<img src="images/Aude_blanc.png" width="100px" height="100px"/><img src="images/Jacques.png" width="100px" height="100px"/><img src="images/Lionel.png" width="100px" height="100px"/><img src="images/Julien.png" width="100px" height="100px"/><img src="images/Adrien.png" width="100px" height="100px"/>
 
-<img src="images/Benoit_redim.jpg" width="100px" height="100px"/><img src="images/Michael.png" width="100px" height="100px"/><img src="images/Cedric.png" width="100px" height="100px"/>
+<img src="images/Benoit_blanc.png" width="100px" height="100px"/><img src="images/Michael.png" width="100px" height="100px"/><img src="images/Cedric_blanc.png" width="100px" height="100px"/>
 
 %%%
 
-### NOTRE OBJECTIF / CONTRAINTES?
+### NOTRE OBJECTIF / NOS CONTRAINTES?
 
-- Des enquêteurs
-- Sur le terrain
+- Des enquêtrices et enquêteurs
+- Des postes nomades
 - Des contraintes de connexion
 
 %%%
 
 ### Le Cadre de Cohérence Technique de l'Insee
 
-Normes de dev
-REACT/JS
-JAVA
-
-Le matériel ?
+- Normes de développement
+- Filière JAVA
+- Filière REACT/JS
+- Renouvellement de matériel
 
 %%%
 
