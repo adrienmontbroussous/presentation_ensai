@@ -1,9 +1,9 @@
 ## PLAN
 
-### CONTEXTE
+### Contexte
 
-### LES PWA
+### LES Progressives Web Apps
 
-### LES SERVICES WORKERS
+### Les Services Workers
 
-### INDEXEDDB
+### IndexedDb

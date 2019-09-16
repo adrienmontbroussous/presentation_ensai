@@ -41,7 +41,7 @@
 
 ### Une application native?
 
-| Natif                       | PWA                            |
+| Natif                       | Progressive Web App            |
 | --------------------------- | ------------------------------ |
 | Lié à une plateforme        | MultiPlateforme                |
 | Cout elevé de développement | Faible Coût?                   |
