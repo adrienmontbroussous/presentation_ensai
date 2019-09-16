@@ -33,7 +33,7 @@ Les limites liées à l'utilisation d'un framework :
 - maintien de la communauté
 - mises à jour
 
-Les avatanges :
+Les avantages :
 
 - facilitation du développement
 
@@ -49,7 +49,7 @@ https://www.npmjs.com/
 
 <!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-### Parmi de nombreux frameworks Dexie.js a été retenue
+### Parmi de nombreux frameworks Dexie.js a été retenu
 
 Ses Avantages:
 
