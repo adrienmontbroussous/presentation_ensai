@@ -1,55 +1,78 @@
-<!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
+### Contexte
 
-## 4
+### Les Progressive Web Apps
 
-### IndexedDb : une (des) solution(s) pour stocker les données localement
+### Les Service Workers
 
-stocker des données plus volumineuses et structurées, et interagir avec elles?
+## IndexedDb
 
 %%%
 
 <!-- .slide: class="slide" data-background-color="#7580ba" -->
 
-### Zoom sur indexedDb
+### IndexedDb
 
-- Tous les objets sont stockées sous format json.
+Une base embarquée au navigateur
 
-Le requêtage
+- stocker des données volumineuses
+- tous les objets sont stockés sous format Json
 
-- ce sont des appels asynchrones
-- possibilité d'utiliser des index
+L'intéraction avec les données
+
+- utilisation d'index
+- requêtes asynchrones
 
 %%%
 
-### Mise en place, FrameWork ou pas Framework?
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-Les limites liées à l'utilisation d'un framework
+### Framework or not Framework?
+
+Les limites liées à l'utilisation d'un framework :
 
 - maintien de la communauté
-- mise à jour
+- mises à jour
+
+Les avatanges :
+
+- facilitation du développement
 
 %%%
 
-Où aller voir ?
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
+
+### Node Package Manager
 
 https://www.npmjs.com/
 
 %%%
 
-Il y a pas mal de librairies différentes, nous on a choisi Dexie.js sur Prisme.
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
+
+### Parmi de nombreux frameworks Dexie.js a été retenue
 
 Ses Avantages:
 
 - communauté active
-- syntaxe pour les requêtes indexées intuitive
+- syntaxe pour effectuer des requêtes indexées intuitive
 - compatible avec react
 
 %%%
 
-Et en production quelles problématiques ?
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-- montée de version de la base de données par fichier json
+### En production
+
+Mise à jour du modèle de données
 
 <img src="images/schemaOriginal_rogne.png" width="500px" />
 
 <img src="images/maj1_rogne.png" width="500px" />
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
+
+### Des outils de debug
+
+<img src="images/indexedDb.png" width="900px" />

@@ -1,3 +1,3 @@
 ### CONCLUSION
 
-<img src="images/Prisme.png" width="1200px" />
+<img src="images/appli.jpg" width="400px" />

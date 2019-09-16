@@ -1,18 +1,20 @@
-<!-- .slide: data-background-image="images/pwa.png" data-background-size="600px" class="chapter" -->
+### Contexte
 
-## 3
+### Les Progressive Web Apps
 
-### Les Service Workers
+## Les Service Workers
+
+### IndexedDb
 
 %%%
 
 <!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-### Qu'est ce qu'un service worker ?
+### Qu'est-ce qu'un service worker ?
 
 ## Principe
 
-C'est tout simplement un script (javaScript) tournant en fond de notre application et interceptant les requêtes.
+C'est un script (javaScript) tournant en fond de notre application et interceptant les requêtes.
 
 <img src="images/service-worker.jpg" width="700px" />
 
@@ -20,14 +22,10 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 
 <!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-### Qu'est ce qu'un service worker ?
+### Besoin d'un environnement sécurisé
 
-## Quelles contraintes pour mettre en place les services worker?
-
-- Https
-- on précise les ressources qui sont dans la contexte du service worker (son "scope")
-
-<img src="images/important-notes.png" width="800px" />
+- Pas de certificat valide => pas de mise en cache
+- Cela a été problématique au cours de mes tests et du projet
 
 %%%
 
@@ -35,10 +33,10 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 
 ### Stratégies principales de mise en cache
 
-|                                                                             |                                                                                                    |
-| --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| A l'installation <img src="images/cm-on-install-dep.png" width="300px" />   | Quand une requête au network réussit <img src="images/cm-on-network-response.png" width="300px" /> |
-| Mise à jour plannifiée <img src="images/cm-on-bg-sync.png" width="300px" /> | Quand on reçoit une notification <img src="images/cm-on-push.png" width="300px" />                 |
+|                                                                                       |                                                                                                   |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| À l'installation <img src="images/cm-on-install-dep.png" width="300px" />             | Quand une requête au réseau réussit <img src="images/cm-on-network-response.png" width="300px" /> |
+| Lors d'une mise à jour planifiée <img src="images/cm-on-bg-sync.png" width="300px" /> |
 
 %%%
 
@@ -46,21 +44,25 @@ C'est tout simplement un script (javaScript) tournant en fond de notre applicati
 
 ### Stratégies principales d'utilisation du cache
 
-|                                                                                             |                                                                            |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Seulement le cache <img src="images/ss-cache-only.png" width="400px" />                     | Seulement le network<img src="images/ss-network-only.png" width="400px" /> |
-| Network sinon cache <img src="images/ss-network-falling-back-to-cache.png" width="400px" /> | course <img src="images/ss-cache-and-network-race.png" width="400px" />    |
+|                                                                                                  |                                                                                        |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Seulement le cache <img src="images/ss-cache-only.png" width="400px" />                          | Seulement le réseau<img src="images/ss-network-only.png" width="400px" />              |
+| Le réseau sinon le cache <img src="images/ss-network-falling-back-to-cache.png" width="400px" /> | Course entre les deux <img src="images/ss-cache-and-network-race.png" width="400px" /> |
 
 %%%
+
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
 ### Mise en place
 
--Create React App
-
--Workbox
+- Create React App
+- Workbox
 
 %%%
 
-### Des outils d'aide au développement ?
+<!-- .slide: class="slide" data-background-image="images/logo-git.png" data-background-size="600px" -->
 
-La console du navigateur Chrome
+### Des outils d'aide au développement
+
+- La console embarquée au navigateur Chrome
+- L'environnement de développement Visual Studio Code
