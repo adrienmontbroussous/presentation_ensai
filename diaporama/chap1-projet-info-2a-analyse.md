@@ -1,3 +1,31 @@
+Le projet informatique est un projet à groupe imposé qui va durer tous les premières semestre de 2A. Il est découpé en deux phases, la phase d'analyse et d'acquisition de connaissances complémentaire (jusqu'au vacance de Toussaint) et une phase d'implémentation de votre application.
+
+
+Planning
+
+%%%
+
+17 octobre 23h59
+Remise du dossier d’analyse
+
+Remise du rapport final
+07 décembre
+	
+%%% 
+Notation
+
+Le projet est noté comme suit :
+
+    1/3 rapport intermédiaire
+    1/3 rapport final
+    1/3 soutenance
+
+Le code produit sera noté et utilisé dans la notation du module "Compléments informatiques".
+
+%%%
+
+
+
 ### Etude Préalable
 
 Cette première phase d’analyse consiste en la formalisation des besoins décrits par le cahier des charges (le sujet, le point de vue du demandeur ou du maître d'ouvrage). Elle devra permettre d’établir :
@@ -8,7 +36,7 @@ Cette première phase d’analyse consiste en la formalisation des besoins décr
 
 %%%
 
-### L'attendu du premier rapport
+### Les diagrammes à réaliser
 
 Cette deuxième phase d’analyse aboutira à un modèle de conception pour répondre aux objectifs fixés par le cahier des charges. Le choix des diagrammes est fait par chaque groupe après validation de leur intervenant. On y trouvera cependant au minimum :
 
@@ -36,4 +64,3 @@ Ce premier livrable est l'aboutissement de la phase d'étude préalable et de co
 - Une liste des composants à implémenter ainsi que : - Leur rôle ; - La description de leurs dépendances réciproques ; - Le temps de développement prévu pour chacun d’entre eux ; - L’ordre de priorité initiale ;
   Une taille raisonnable pour ce livrable est de 10 à 15 pages, annexes comprises. Vous pouvez faire plus long mais dans ce cas posez-vous la question : « Ce que j’ajoute est-il nécessaire ? ». Il n’est pas obligatoirement rédigé en LaTeX. Il sera noté par votre intervenant qui vous en fera un retour.
 
-<img src="images/pwa.png" style="width: 600px;" />
