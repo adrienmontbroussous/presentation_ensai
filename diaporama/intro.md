@@ -1,7 +1,7 @@
-### Contexte
+### Le projet informatique de 2A
 
-### Les Progressive Web Apps
+### Duo kaaré ou kaash
 
-### Les Service Workers
+### Les attendus (rapport d'analyse et final)
 
-### IndexedDb
+### Planning
